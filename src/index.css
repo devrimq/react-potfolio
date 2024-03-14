@@ -1,0 +1,38 @@
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Madimi One", sans-serif; ;
+ 
+ }
+  
+body{
+  background-color: black;
+}
+h1,h2,h3,h4,p,a{
+  color: aliceblue;
+  text-decoration: none;
+}
+ul{
+  list-style-type:none;
+
+}
+.btn, .btn-light {
+  padding: 10px 20px; /* Örneğin, istediğiniz değerleri burada belirtin */
+  background-color: #584a06; /* Düğme arkaplan rengi */
+  color: #b1b58e; /* Düğme metin rengi */
+  border: 1px solid #88887b; /* Düğme kenarlık rengi */
+  text-transform: uppercase;
+}
+
+/* İlgili düğmelerin üzerine gelindiğindeki durumu */
+.btn:hover, .btn-light:hover {
+  background-color: #000000; /* Düğme arkaplan rengi */
+  color: #806c08; /* Düğme metin rengi */
+  border: 1px solid #ffffff; /* Düğme kenarlık rengi */
+}
